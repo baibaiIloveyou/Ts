@@ -35,3 +35,6 @@ function CalcArea(shape:Shape){//定义一个通用的接口
 }
 CalcArea(new Circle(3))
 CalcArea(new Rectangle(1,3))
+
+//抽象类只能被单一的继承
+//接口可以实现多层的实现
